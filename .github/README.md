@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-apigatewaymanagementapi`](https://www.npmjs.com/package/@aws-sdk/client-apigatewaymanagementapi/v/3.714.0).
+[`@aws-sdk/client-apigatewaymanagementapi`](https://www.npmjs.com/package/@aws-sdk/client-apigatewaymanagementapi/v/3.716.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-apigatewaymanagementapi@3.714.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-apigatewaymanagementapi@3.716.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-9H7RvcqlqS1HyH4TQ0JWS34iW1exIv4Bds+9asitA12dtUffA51+8Eo6eh7TV1Ff
+sha384-Y7D9VOepU5OZM9qODux6L9Y35H/l9CmMvv7j41b5Am52yiTN8ABLG7Cu7seeZOXj
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-apigatewaymanagementapi": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-apigatewaymanagementapi@3.714.0/index.min.mjs"
+            "@aws-sdk/client-apigatewaymanagementapi": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-apigatewaymanagementapi@3.716.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-apigatewaymanagementapi@3.714.0/index.min.mjs": "sha384-9H7RvcqlqS1HyH4TQ0JWS34iW1exIv4Bds+9asitA12dtUffA51+8Eo6eh7TV1Ff"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-apigatewaymanagementapi@3.716.0/index.min.mjs": "sha384-Y7D9VOepU5OZM9qODux6L9Y35H/l9CmMvv7j41b5Am52yiTN8ABLG7Cu7seeZOXj"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-apigatewaymanagementapi": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-apigatewaymanagementapi@3.714.0/index.min.mjs"
+                        "@aws-sdk/client-apigatewaymanagementapi": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-apigatewaymanagementapi@3.716.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-apigatewaymanagementapi@3.714.0/index.min.mjs": "sha384-9H7RvcqlqS1HyH4TQ0JWS34iW1exIv4Bds+9asitA12dtUffA51+8Eo6eh7TV1Ff"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-apigatewaymanagementapi@3.716.0/index.min.mjs": "sha384-Y7D9VOepU5OZM9qODux6L9Y35H/l9CmMvv7j41b5Am52yiTN8ABLG7Cu7seeZOXj"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.714.0`)
+* Always pin to a specific version (`@3.716.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-apigatewaymanagementapi/blob/refs/tags/3.714.0/LICENSE
+https://github.com/cloud-sdk-builds/client-apigatewaymanagementapi/blob/refs/tags/3.716.0/LICENSE
 ```
 
 ---
